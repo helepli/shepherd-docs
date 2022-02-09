@@ -1,22 +1,23 @@
-Welcome to Lumache's documentation!
-===================================
+Shepherd's docs - Reinforcement Learning Agent as a Service
+===========================================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Shepherd** is a web service that allows non-experts in Reinforcement Learning (RL) to easily use state-of-the-art RL techniques. With Shepherd, you can use your usual and favorite programming language, no specific dependencies must be installed on your machine, and you do not have to read RL literature, or follow a tutorial on RL to be able to get an RL agent up and running.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
 
 .. note::
+To use Shepherd, you do not need to know how RL works, however, you do need to have a problem applicable for Reinforcement Learning.
 
-   This project is under active development.
 
-Contents
---------
+User Guide
+----------
 
 .. toctree::
 
-   usage
-   api
+   getting_started
+   what_is_an_environment
+   tips_and_tricks
+   example
+
+
+
+
