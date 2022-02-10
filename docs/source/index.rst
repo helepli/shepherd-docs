@@ -5,7 +5,8 @@ Shepherd's docs - Reinforcement Learning Agent as a Service
 
 
 .. note::
-To use Shepherd, you do not need to know how RL works, however, you do need to have a problem applicable for Reinforcement Learning.
+
+    To use Shepherd, you do not need to know how RL works, however, you do need to have a problem applicable for Reinforcement Learning.
 
 
 User Guide
@@ -18,6 +19,9 @@ User Guide
    tips_and_tricks
    example
 
+
+   description de ce qu'il y a en base de données
+   ce qu'est un client, avoir plusieurs agent, exemple de tickle
 
 
 

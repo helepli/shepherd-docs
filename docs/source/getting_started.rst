@@ -20,3 +20,11 @@ log in
 
 Sending observations to your agent
 ----------------------------------
+
+
+having multiple clients
+
+
+distinction entre un shepherd agent et un stable baseline agent
+
+you will always have a vety good agent because blabla TL
