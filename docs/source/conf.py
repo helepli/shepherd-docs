@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Shepherd'
+copyright = '2022, The Pliche Team'
+author = 'Pliche Developer'
 
 release = '0.1'
 version = '0.1.0'
@@ -33,3 +33,12 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+
+html_theme = 'sphinx_rtd_theme'
+html_static_path = ['_static']
+html_logo = "pictures/shepherdess.png"
+html_theme_options = {
+    'logo_only': True,
+    'display_version': False,
+}

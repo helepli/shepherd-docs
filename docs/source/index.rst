@@ -14,14 +14,13 @@ User Guide
 
 .. toctree::
 
-   getting_started
+   user
+   agent
+   algorithm
+   parameters
    what_is_an_environment
-   tips_and_tricks
    example
 
-
-   description de ce qu'il y a en base de données
-   ce qu'est un client, avoir plusieurs agent, exemple de tickle
 
 
 
