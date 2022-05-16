@@ -56,21 +56,14 @@ Download zip button.
     :alt: Alternative text
 
 
+When a user wants to launch an RL algorithm on their environment, a new Shepherd **Agent** object belonging to that user (and no one else) is added to the database. The specification of the action and observation spaces of the user's environment are required for the initialization of a Shepherd Agent. New Shepherd agents are created through the admin page, as well as the parameter values to configure the algorithm run by an agent. The difference between a Shepherd agent and a standard RL agent is that several standard RL agents can ``run" one Shepherd agent: a Shepherd agent stores a configuration, specifying which algorithm must be executed, the parameters, as well as the latest generated model and results obtained. There are few ``special actions" that the user can do through the admin page;  they can download data from the agent, such as the episode rewards and the agent's model, and reboot its learning, which is especially useful when the environment has been modified and that previous results become irrelevant.
 
 
+Episode Returns
+===============
 
-Delete latest (and all) model(s)
---------------------------------
-Delete zip button
+Multiple **EpisodeReturns** are associated to one Shepherd Agent. Each EpisodeReturn object stores a float (the sum of all rewards collected during one episode), and a date time field. Episode returns are used to plot the Agent's learning curve, automatically displayed on the admin page.
 
 
-Delete learning curve
----------------------
-
-Restart agent
--------------
-
-Add API key
------------
 
 
