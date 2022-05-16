@@ -5,7 +5,7 @@ Shepherd's docs - Reinforcement Learning Agent as a Service
 
 We describe below the components of Shepherd, namely: i) the database allowing to keep track of users/clients, and of their RL agents; and ii) the communication workflow between client and server, letting a client's environment to sporadically send observations to an RL agent on the server side, and getting actions in return.
 
-In the following sections, by the term ``user", we mean a person that possesses an environment applicable to the use of an RL algorithm. For a user environment to be able to benefit from our service, the only requirements are  that observations can be extracted from the environment, and that the environment can take actions as input. The only contribution left from the user is to implement a client application, establishing the connection with our server, sending observations and receiving actions. However, this part is relatively trivial to implement, and we provide an example.
+In the following sections, by the term "user", we mean a person that possesses an environment applicable to the use of an RL algorithm. For a user environment to be able to benefit from our service, the only requirements are  that observations can be extracted from the environment, and that the environment can take actions as input. The only contribution left from the user is to implement a client application, establishing the connection with our server, sending observations and receiving actions. However, this part is relatively trivial to implement, and we provide an example.
 
 
 
@@ -19,7 +19,6 @@ User Guide
 
 .. toctree::
 
-   user
    agent
    algorithm
    parameters
