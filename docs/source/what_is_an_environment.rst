@@ -1,7 +1,8 @@
 What is an Environment?
 =======================
 
-An environmnent is an abstraction of a real-life problem. Reinforcement Learning can be applied to any problem, as long as clear states and actions can be identified.
+In our Shepherd agent creation section, and in our code exmaple of a client sending observations to the server, we considered CartPole, a very simple simulated environemnt often used by RL researchers and AI students. In this section, we go a little further and imagine a real-life task to be solved, controlling a robotic arm, and detail how to abstract this task into an environment able to interact witha  Shepherd agent. Note that an environment is in no way a simulator of the robotic arm; it can be viewed as a software bridge between the robot arm and the agent, allowing the agent to observe the current state of the arm, and to send actions to be executed by the arm. Reinforcement Learning can be applied to any real-life problem, as long as clear states and actions can be identified, as we describe below.
+
 
 How to make an RL environment?
 ------------------------------
