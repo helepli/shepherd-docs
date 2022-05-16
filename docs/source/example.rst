@@ -60,7 +60,7 @@ For each *obs*, *reward*, *done*, *info* communication from the client to the se
 
 
 On the Shepherd server side
-===========================
+---------------------------
 
 In a conventional reinforcement learning setting, the agent is the driving force of the interactions between the agent and the environment. In a typical RL workflow, the agent generates an action, then prompts the environment for an observation, in exchange of that action. In our Shepherd framework, on the other hand, it is the environment on the client side that prompts the agent on our server for an action, in return of an observation. This role reversal calls for a carefully though out solution on the server side for standard RL algorithms to smoothly adapt to that modified communication workflow.
 
