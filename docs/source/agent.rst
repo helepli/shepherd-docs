@@ -7,6 +7,12 @@ Once your Shepherd user is created, you can add a Shepherd agent associated to t
 Under one Shepherd agent, several instances of RL agents can learn in parallel in the environment, and share their knowledge with each other to improve their individual performance. This means that whenever a new RL agent instance is added to the RL agent's pool of a Shepherd agent, its learning can immediateley be kickstarted using other Rl agents' latest learned model. This allows for fresh RL agents to behave in a much less random fashion than if learning from scratch.
 
 
+API keys
+--------
+
+To avoid the need for a user name and password, we use generated **API keys** by the UUID module. The particularity of our usage of API keys is that one API key is also associated to one Shepherd Agent. When logging in to Shepherd, the client sends an API key to the server, which retrieves  the corresponding API key object, linked to the user's corresponding Agent. In the case where a user has multiple Shepherd agents, they would also have multiple API keys, one per agent. The advantage of this setting is that if one API key is leaked,  only one of the user's Shepherd Agents is leaked.
+
+
 Creating a Shepherd agent
 -------------------------
 
