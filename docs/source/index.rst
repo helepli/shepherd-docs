@@ -21,9 +21,9 @@ User Guide
 
    agent
    algorithm
-   parameters
-   what_is_an_environment
    example
+   what_is_an_environment
+
 
 
 
