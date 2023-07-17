@@ -37,8 +37,10 @@ epub_show_urls = 'footnote'
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_logo = "pictures/shepherdess.png"
+html_logo = "pictures/girl2.jpeg"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
 }
+
+html_static_path = []
